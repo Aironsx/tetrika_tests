@@ -34,7 +34,7 @@ def filter_intervals(array: list, lesson: list) -> list:
     return filtered_array
 
 
-def appearance(pupils_intervals, tutors_intervals) -> int:
+def appearance(pupils_intervals: list, tutors_intervals: list) -> int:
     """
     Find crossed intervals and calculate sum.
     :param pupils_intervals:
